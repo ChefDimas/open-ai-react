@@ -1,5 +1,6 @@
 import React from "react";
 import GeneralLayout from "./layouts/GeneralLayout";
+import "./normalize.sass"
 
 function App() {
   return (
