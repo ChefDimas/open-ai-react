@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Main from "./Main"
 import style from "./layout.module.sass"
 
-const GeneralLayout = () => {
+
+const GeneralLayout = ( {children} ) => {
     return (
-        <>
+        <div className={style.app}>
             <Header />
-            <Main />
+                {children}
             <Footer />
-        </>
+        </div>
     )
 };
 
