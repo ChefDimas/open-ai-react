@@ -11,6 +11,7 @@ const Footer = () => {
                 </h1>
                 <button>Request Early Access</button>
             </div>
+            <div className="secondContainer"></div>
         </footer>
     );
 };
