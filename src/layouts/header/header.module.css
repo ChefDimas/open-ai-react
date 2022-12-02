@@ -1,0 +1,40 @@
+.header {
+  color: white;
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 5% auto 20%;
+}
+.header a {
+  font-weight: 800;
+  margin: auto;
+}
+.header nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-left: 1rem;
+}
+.header nav ul li {
+  display: inline-block;
+  margin: auto;
+}
+.header nav ul li a {
+  font-weight: 400;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.user button {
+  border: none;
+}
+
+.singIn {
+  background-color: transparent;
+}
+
+.singUp {
+  background-color: #FF4820;
+}
+
+/*# sourceMappingURL=header.module.css.map */
